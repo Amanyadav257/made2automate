@@ -1,0 +1,50 @@
+.product-container {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.product-image {
+    width: 300px;
+    height: auto;
+}
+
+.product-info {
+    flex: 1;
+    padding: 20px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.price-customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price,
+.customer {
+    font-weight: bold;
+}
+
+.quantity {
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    cursor: pointer;
+}
